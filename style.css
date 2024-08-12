@@ -1,0 +1,133 @@
+body{
+    background: linear-gradient(#9F0539,#A0063A);
+    color: white;
+
+
+}
+@font-face {
+    font-family: "Airbeat";
+    src: url(Airbeat.ttf);
+}
+@font-face {
+    font-family: "CSR";
+    src: url(CounterStreamDemoRegular.ttf);
+}
+.girl{
+    width: 40%;
+    position: absolute;
+    bottom: 0;
+    left: 27%;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+
+    h1{
+        font-family: "Airbeat";
+        font-size: 20px;
+    }
+
+ul{
+    display: inherit;
+    list-style-type: none;
+    gap: 30px;
+    font-family: "Mulish";
+    font-size: 14px;
+}
+}
+.hp{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+     margin-left: 60px;
+     margin-right: 50px;
+     margin-top: 5%;
+     position: relative;
+     h1{
+        width: 40%;
+        font-family: "Airbeat";
+        font-size: 50px;
+        line-height: 100px;
+        z-index: 999;
+     }
+     p{
+        font-family: "Mulish";
+        font-size: 25px;
+        font-weight: 200;
+     }
+     div{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+       
+        img{
+            position: absolute;
+            top: -50px;
+            width:14%;
+         }
+     }
+    
+}
+.div{
+    width: 100vw;
+    .back-cont{
+        display: flex;
+        width: 100%; 
+        justify-content: center;
+        align-items: center;  
+        gap: 140px;
+        .back{
+            font-size: 13vw;
+            font-family: "CSR";
+            background-color: transparent ;
+            -webkit-text-stroke: 1px white;
+            -webkit-background-clip: text;
+            color: transparent ;
+        }
+    }
+}
+footer{
+    position: fixed;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   
+    img{
+        margin-left: 150px;
+        width: 50%;
+    }
+}
+.footer{
+    position: fixed;
+    bottom: 20px;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+    align-items: center;
+    margin: 20px;
+    div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+    ul{
+        display: inherit;
+        list-style-type: none;
+        gap: 30px;
+        li{
+            width: 30px;
+            height: 30px;
+            border: 1px solid white;
+            border-radius: 50%;
+        }
+        li.active{
+            background-color: white;
+        }
+    }
+}
